@@ -43,7 +43,7 @@
     "uid": "rid848d",
     "gaid": "adv8dee",
     "install_referrer": "irefeef7",
-    "model": "mdlf7e7",
+    "device_model": "mdlf7e7",
     "os_version": "osve748",
     "sdk_int": "sdk487f",
     "locale": "loc7f9c",
@@ -52,7 +52,9 @@
     "build": "bldcbbc",
     "push_token": "ptkbc47",
     "language": "lng47d5",
-    "country": "ctyd5f0"
+    "country": "ctyd5f0",
+    "user_agent": "uag5f08",
+    "installed_time": "itm081c"
   },
   "push": {
     "delivered": "/u/43cbbc/d/{id}",
