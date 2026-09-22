@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197732071086",
+    "project_id": "beacon-rush",
+    "storage_bucket": "beacon-rush.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197732071086:android:b88e14a83e86e19dd5df3f",
+        "android_client_info": {
+          "package_name": "com.pixelhaven.beaconrush"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi3k1be6To7E0UbQl1HnXgb7Q5Ej4GasI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+name: Build AAB and APK
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Require committed release keystore
+        run: |
+          test -f upload-keystore.jks || { echo "missing upload-keystore.jks"; exit 1; }
+          test -f keystore.properties || { echo "missing keystore.properties"; exit 1; }
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: "17"
+          distribution: temurin
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platform-tools
+
+      - name: Install CMake and NDK
+        run: sdkmanager --install "cmake;3.22.1" "ndk;28.2.13676358"
+
+      - name: Flutter pub get
+        run: flutter pub get
+
+      - name: Build Release AAB
+        run: flutter build appbundle --release
+
+      - name: Build Release APK
+        run: flutter build apk --release
+
+      - name: Upload AAB Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error

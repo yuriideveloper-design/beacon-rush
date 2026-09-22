@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1A070C</color>
+    <color name="beacon_push_ink">#E8A14A</color>
+</resources>

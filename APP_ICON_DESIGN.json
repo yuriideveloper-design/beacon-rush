@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_by": "codex",
+  "concept": "A glowing emergency flare rising above a coastal beacon and ship silhouette, capturing Beacon Rush's urgent night signaling challenge.",
+  "background_color": "#1C1C1C",
+  "background_accent_color": "#E53935",
+  "layers": [
+    {"shape":"circle","cx":512,"cy":330,"radius":112,"color":"#FFC2BC"},
+    {"shape":"circle","cx":512,"cy":330,"radius":62,"color":"#E53935"},
+    {"shape":"polygon","points":[[474,442],[550,442],[620,744],[404,744]],"color":"#F5F0EB"},
+    {"shape":"rounded_rect","x":358,"y":706,"width":308,"height":78,"radius":34,"color":"#292929"},
+    {"shape":"polygon","points":[[246,680],[344,626],[724,626],[796,680]],"color":"#FF7B72"},
+    {"shape":"line","points":[[512,446],[512,392]],"width":34,"color":"#FFFFFF"}
+  ]
+}

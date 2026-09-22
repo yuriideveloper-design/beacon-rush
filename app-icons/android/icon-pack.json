@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_stack": "flutter",
+  "background_color": "#1C1C1C",
+  "has_monochrome": true,
+  "protected_files": {
+    "android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png": "a62cdcbf318d032c35b215f27c73985075cbe97e68f1e97527bb47fb1d3c7f4c",
+    "android/app/src/main/res/drawable-xxxhdpi/ic_launcher_monochrome.png": "fcd188402745a5a70e1c6e0af2b72d16dcdafeca6161510068b73ea84e4607e9",
+    "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": "b936a640ceca8d1da24d4356afd82d0b6f4c5ca3744ae04db3b2b453b1252814",
+    "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml": "b936a640ceca8d1da24d4356afd82d0b6f4c5ca3744ae04db3b2b453b1252814",
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": "ea850a9c49804b75bed2785f6bb3b2c9c68f2c73dc960acdd4bc7f54405cf603",
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": "ea850a9c49804b75bed2785f6bb3b2c9c68f2c73dc960acdd4bc7f54405cf603",
+    "app-icons/android/codex-icon-source.png": "212c1eddb9ba091bb807ad40d46737502f88f920832773304db586b29a0d7f7d",
+    "app-icons/android/CODEX_ICON_SOURCE.json": "237dea47a55955cf891a3557fdb6ea96aa96338fbe6d3019d5abb796e633e860",
+    "app-icons/android/feature_graphic_1024x500.png": "6a3812d023d0a61a558492e9565bd799779ab8d038a67e9f8ef00c46e171128b",
+    "app-icons/android/GOOGLE_PLAY_ASSETS.md": "a9d81e0884315e2df47317e7d2a9c44e53bff97a8e77b6847f78ae52604490d7",
+    "app-icons/android/ic_launcher_foreground_432.png": "a62cdcbf318d032c35b215f27c73985075cbe97e68f1e97527bb47fb1d3c7f4c",
+    "app-icons/android/ic_launcher_legacy_192.png": "ea850a9c49804b75bed2785f6bb3b2c9c68f2c73dc960acdd4bc7f54405cf603",
+    "app-icons/android/ic_launcher_monochrome_432.png": "fcd188402745a5a70e1c6e0af2b72d16dcdafeca6161510068b73ea84e4607e9",
+    "app-icons/android/play_store_icon_512.png": "163d3224e1002b2418ca503e45e738c150ae14d9f227532fc551f543d7dda60e",
+    "APP_ICON_DESIGN.json": "2c68c7663397ca93ab1584d592e77d9e16245587997f96534a48cbc6c381589e",
+    "APP_ICON_SOURCE.png": "212c1eddb9ba091bb807ad40d46737502f88f920832773304db586b29a0d7f7d"
+  }
+}

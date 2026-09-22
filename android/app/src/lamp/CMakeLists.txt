@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(lampnub)
+add_library(lampnub SHARED lamp.cpp)
+target_compile_options(lampnub PRIVATE -fvisibility=hidden)
+target_link_options(lampnub PRIVATE "-Wl,-z,max-page-size=16384")

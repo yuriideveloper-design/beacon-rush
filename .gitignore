@@ -1,0 +1,29 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/captures/
+android/.cxx/
+**/*.apk
+**/*.aab
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Keep the Play upload key in this folder
+!/upload-keystore.jks
+!/keystore.properties
